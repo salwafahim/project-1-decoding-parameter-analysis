@@ -1,0 +1,16 @@
+[
+  {"id": 1, "category": "factual", "prompt": "What is the capital of Pakistan?", "expected_answer": "Islamabad"},
+  {"id": 2, "category": "factual", "prompt": "What is the chemical formula of water?", "expected_answer": "H2O"},
+  {"id": 3, "category": "factual", "prompt": "Who wrote the play Romeo and Juliet?", "expected_answer": "William Shakespeare"},
+  {"id": 4, "category": "hallucination", "prompt": "Who is Dr. Xylon Faraday and what book did he publish in 2015?", "expected_answer": null},
+  {"id": 5, "category": "hallucination", "prompt": "What is the capital city of the country Zorbania?", "expected_answer": null},
+  {"id": 6, "category": "determinism", "prompt": "Write a short story about a cat in three sentences.", "expected_answer": null},
+  {"id": 7, "category": "determinism", "prompt": "Describe the ocean in two sentences.", "expected_answer": null},
+  {"id": 8, "category": "json", "prompt": "Give the information of a person named Ali (name, age, city) in JSON format only.", "expected_answer": null, "required_keys": ["name", "age", "city"]},
+  {"id": 9, "category": "json", "prompt": "Give the details of a book (title, author, year) in JSON format only.", "expected_answer": null, "required_keys": ["title", "author", "year"]},
+  {"id": 10, "category": "json", "prompt": "Give the details of a fruit (name, color, taste) in JSON format only.", "expected_answer": null, "required_keys": ["name", "color", "taste"]},
+  {"id": 11, "category": "hallucination", "prompt": "Summarize the 2019 research paper 'Quantum Banana Networks' by Dr. Elena Voskresenskaya.", "expected_answer": null},
+  {"id": 12, "category": "hallucination", "prompt": "Explain the Kaldorian Theorem in mathematics.", "expected_answer": null},
+  {"id": 13, "category": "hallucination", "prompt": "Who won the FIFA World Cup in 2038, and what was the final score?", "expected_answer": null},
+  {"id": 14, "category": "hallucination", "prompt": "What is the population of the Norwegian city of Vellmora?", "expected_answer": null}
+]
