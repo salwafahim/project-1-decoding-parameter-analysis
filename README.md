@@ -41,5 +41,4 @@ The project uses factual questions, repeated prompts, and JSON-format prompts. E
 The experiments investigate how decoding parameters affect consistency, hallucinations, diversity, and formatting. The results are documented in the project report.
 
 ## Report
-See the PDF report included in this repository for the methodology, results, graphs, and conclusion.# project-1-decoding-parameter-analysis
-Decoding Parameter and Sampling Analysis using Llama 3.2 1B and Qwen 2.5 1.5B
+See the PDF report included in this repository for the methodology, results, graphs, and conclusion.
